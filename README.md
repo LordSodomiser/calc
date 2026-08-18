@@ -147,8 +147,8 @@ Error: Cannot divide by zero
 Clone the repository:
 
 ```bash
-git clone https://github.com/LordSodomiser/Abyssal-Abacus.git
-cd Abyssal-Abacus
+git clone https://github.com/LordSodomiser/calc.git
+cd calc
 ```
 
 Build a release version:
