@@ -48,14 +48,14 @@ fn parse_and_evaluate(expr: &str) -> Result<f64, String> {
                 '*' => Ok(a * b),   // multiplication
                 '/' => {
                     if b == 0.0 {
-                        Err("0".to_string())
+                        Err("Cannot divide by zero".to_string())
                     } else {
                         Ok(a / b)
                     }
                 }
                 '%' => {
                     if b == 0.0 {
-                        Err("0".to_string())
+                        Err("Cannot calculate modulo by zero".to_string())
                     } else {
                         Ok(a % b)   // Example: 10 % 3 = 1 (the remainder after dividing)
                     }
